@@ -1,8 +1,9 @@
 import random
 import telebot
 
+from token_file import MY_TOKEN
 
-bot = telebot.TeleBot("7049222427:AAFZHOejH7JfXx_SQZrD5UUCBDLDZkDBXog")
+bot = telebot.TeleBot(MY_TOKEN)
 
 
 @bot.message_handler(commands=["Game"])
